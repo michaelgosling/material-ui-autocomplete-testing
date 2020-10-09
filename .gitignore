@@ -2,8 +2,14 @@
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
+
+# yarn pnp w/ zero-install
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
 
 # testing
 /coverage
